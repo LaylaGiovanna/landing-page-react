@@ -3,10 +3,18 @@ import React from "react";
 //imports
 import styles from './styles.css'
 
-export default function Elipse(){
+export default function Elipse({size, opacity, styles}){
+
+    //objeto de estilo
+    const circleStyle = {
+        with: `${size} px`,
+        height: `${size} px`,
+        opacity: opacity,
+    }
+
     return(
         <>
-            <h1>Elipse</h1>
+            <div className={`circle ${styles}`}></div>
         </>
-    )
+    );
 }

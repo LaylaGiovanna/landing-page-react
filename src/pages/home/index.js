@@ -8,8 +8,18 @@ import Elipse from "../../components/Elipse";
 export default function Home(){
     return(
         <>
-            <h1>HOME</h1>
-            <Elipse />
+            <header className="container">
+                <div className="elipse-container">
+                    {/* esquerda */}
+                    <div className="elipse-left">
+                        <Elipse size={120} opacity={0.8} styles={'circle-left-one'}/>
+                    </div>
+
+                    {/* direita */}
+                    <div className="elipse-right"></div>
+                </div>
+
+            </header>
         </>
     )
 }
