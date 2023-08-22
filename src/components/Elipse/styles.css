@@ -1,5 +1,5 @@
 div.circle{
     border-radius: 50%;
-    border-color: #3c6401;
+    background-color: #3c6401;
     border: 1px solid #3c6401;
 }

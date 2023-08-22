@@ -7,14 +7,12 @@ export default function Elipse({size, opacity, styles}){
 
     //objeto de estilo
     const circleStyle = {
-        with: `${size} px`,
-        height: `${size} px`,
+        width: `${size}px`,
+        height: `${size}px`,
         opacity: opacity,
     }
 
     return(
-        <>
-            <div className={`circle ${styles}`}></div>
-        </>
+        <div style={circleStyle} className={`circle ${styles}`}></div>
     );
 }

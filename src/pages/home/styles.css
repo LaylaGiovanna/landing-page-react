@@ -3,6 +3,152 @@ header.container{
     padding-bottom: 60px;
     display: flex;
     flex-direction: column;
+
     position: relative;
 }
 
+header.container div.elipse-container{
+    width: 90%;
+    height: 250px;
+    margin: 0 auto;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* ----------------------------------------- */
+/*                    LEFT                   */
+/* ----------------------------------------- */
+header.container div.elipse-container div.elipse-left{
+    max-width: 600px;
+    height: 250px;
+    display: flex;
+    flex-flow: row;
+    position: relative;
+    background-color: plum;
+}
+
+header.container div.elipse-container div.elipse-left div.circle-left-one{
+    position: absolute;
+    left: 0;
+    bottom: 38px;
+}
+
+header.container div.elipse-container div.elipse-left div.circle-left-two{
+    position: absolute;
+    left: 50px;
+    top: 25px;
+}
+
+header.container div.elipse-container div.elipse-left div.circle-left-three{
+    position: absolute;
+    left: 140px;
+    top: 38px;
+}
+
+
+/* ----------------------------------------- */
+/*                    RIGHT                  */
+/* ----------------------------------------- */
+header.container div.elipse-container div.elipse-right{
+    max-width: 600px;
+    height: 250px;
+    display: flex;
+    flex-flow: row;
+    position: relative;
+}
+
+header.container div.elipse-container div.elipse-right div.circle-right-one{
+    position: absolute;
+    right: 350px;
+    bottom: 20px;
+}
+
+header.container div.elipse-container div.elipse-right div.circle-right-two{
+    position: absolute;
+    right: 310px;
+    top: 22px;
+}
+
+header.container div.elipse-container div.elipse-right div.circle-right-three{
+    position: absolute;
+    right: 190px;
+    bottom: 0;
+}
+
+header.container div.elipse-container div.elipse-right div.circle-right-four{
+    position: absolute;
+    right: 130px;
+    bottom: 15px;
+}
+
+
+/* ----------------------------------------- */
+/*             INFOS E FORM                  */
+/* ----------------------------------------- */
+
+header.container div.information-container{
+    width: 100%;
+    padding-bottom: 5rem;
+    margin-top: -2.5rem;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+}
+
+header.container div.information-container div.information-left{
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    max-width: 700px;
+}
+
+header.container div.information-container div.information-left div.information-text{
+    max-width: 90%;
+}
+
+header.container div.information-container div.information-left div.information-text h3{
+    color: #6f6f6f;
+    font-size: max(17px, 1.6vw);
+}
+
+header.container div.information-container div.information-left div.information-text h1{
+    font-size: max(22px, 2.5vw);
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    
+}
+
+header.container div.information-container div.information-left div.information-text h4{
+    font-size: max(16px, 1.2vw);
+    max-width: 95%;
+    margin-bottom: 1.5rem;
+}
+
+header.container div.information-container div.information-left div.information-text p{
+    max-width: 95%;
+    margin-bottom: 1.5rem;
+    font-weight: 300;
+}
+
+header.container div.information-container div.information-left div.information-img{
+    max-width: 250px;
+    max-height: 350px;
+}
+
+header.container div.information-container div.information-left div.information-img img{
+    max-width: 100%;
+}
+
+
+/* ----------------------------------------- */
+/*                    RIGHT                  */
+/* ----------------------------------------- */
+div.information-right{
+    display: flex;
+    flex-direction: column;
+    max-width: 600px;
+    margin-top: 5.2rem;
+    
+}
