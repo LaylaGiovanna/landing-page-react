@@ -69,9 +69,39 @@ export default function Home(){
                     <div className="information-right">
                         <form>
                             <div className="form-input">
-                                <input type="text" className="form-input" id="firstName"></input>
-                                <label htmlFor="firstName">Primeiro nome</label>
+                                <input type="text" className="input" id="firstName"></input>
+                                <label htmlFor="firstName" className="label-input">Primeiro nome</label>
                             </div>
+                            
+                            <div className="form-input">
+                                <input type="text" className="input" id="lastName"></input>
+                                <label htmlFor="lastName" className="label-input">Sobrenome</label>
+                            </div>
+
+                            <div className="form-input">
+                                <input type="text" className="input" id="email"></input>
+                                <label htmlFor="email" className="label-input">Email</label>
+                            </div>
+
+                            <div className="form-text">
+                                <span>
+                                    Inscreva-se para receber em primeira mão as melhores dicas e receitas saudáveis 
+                                    que irão transformar sua alimentação e melhorar sua qualidade de vida.
+                                </span>
+                            </div>
+
+                            {/* OPTION - serve para dizer que pode selecionar um ou outro, se não tiver, é possivel marcar os dois */}
+                            <div className="form-enquete">
+                                <input type="radio" id="formYes" name="option"></input>
+                                <label htmlFor='formYes'>Sim, eu quero me escrever!</label>
+                            </div>
+
+                            <div className='form-enquete'>
+                                <input type="radio" id='formNo' name='option'></input>
+                                <label htmlFor='formNo'>Não, Estou bem obrigado!</label>
+                            </div>
+
+                            <button className="form-button">Download E-book</button>
                         </form>
                     </div>
                 </div>

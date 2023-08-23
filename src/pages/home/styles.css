@@ -145,10 +145,82 @@ header.container div.information-container div.information-left div.information-
 /* ----------------------------------------- */
 /*                    RIGHT                  */
 /* ----------------------------------------- */
-div.information-right{
+header.container div.information-container div.information-right{
     display: flex;
     flex-direction: column;
     max-width: 600px;
-    margin-top: 5.2rem;
-    
+    margin-top: 5.2rem; 
+}
+
+header.container div.information-container div.information-right form{
+    max-width: 100%;
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 40px 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+header.container div.information-container div.information-right form div.form-input{
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    margin-bottom: 1.5rem;
+
+}
+
+header.container div.information-container div.information-right form div.form-input input{
+    height: 40px;    
+    margin-bottom: 5px;
+}
+
+header.container div.information-container div.information-right form div.form-input input label.label-input{
+    font-size: max(16px, 0.9vw);
+    font-family: 'Opens Sans', sans-serif;
+    font-weight: 600;
+}
+
+header.container div.information-container div.information-right form div.form-text{
+    max-width: 90%;
+    text-align: left;
+    margin-top: 2rem;
+    margin-bottom: 1.2rem;
+}
+
+header.container div.information-container div.information-right form div.form-text span{
+    font-size: max(15px, 0.9vw);
+    font-family: 'Opens Sans', sans-serif;
+    font-weight: 300;
+}
+
+header.container div.information-container div.information-right form div.form-enquete{
+    width: 90%;
+    margin-bottom: 1.2rem;
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+}
+
+header.container div.information-container div.information-right form div.form-enquete input{
+    margin-right: 5px;
+}
+
+header.container div.information-container div.information-right form button.form-button{
+    width: 60%;
+    height: 60px;
+    background-color: #3c6401;
+    border: none;
+    border-radius: 50px;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    color: #FFF;
+    font-size: max(16px, 1.1vw);
+    font-weight: bold;
+    transition: 0.8s ease-out;
+}
+
+header.container div.information-container div.information-right form button.form-button:hover{
+    opacity: .75;
 }
