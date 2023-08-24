@@ -1,0 +1,41 @@
+/*----------------------------*/
+/*          ELIPSE LEFT       */
+/*----------------------------*/
+
+@media(max-width: 900px){
+    header.container div.elipse-container div.elipse-left{
+        display: none;
+    }
+
+    header.container div.elipse-container div.elipse-right div.circle-right-one{
+        left: 240px;
+        top: 40px;
+    }
+    
+    header.container div.elipse-container div.elipse-right div.circle-right-two{
+        left: 190px;
+        top: 10px;
+    }
+    
+    header.container div.elipse-container div.elipse-right div.circle-right-three{
+        left: 90px;
+        top: 30px;
+    }
+    
+    header.container div.elipse-container div.elipse-right div.circle-right-four{
+        left: 40px;
+        top: 10px;
+    }
+}
+
+/*----------------------------*/
+/*        INFOS E FORM        */
+/*----------------------------*/
+
+@media(max-width: 1000px){
+    header.container div.information-container{
+        padding: 0 1rem;
+    }
+    
+
+}
