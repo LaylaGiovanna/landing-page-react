@@ -9,8 +9,10 @@ import ebook from '../../image/ebook.png';
 
 import mobile from './mobile.css'
 
+
 export default function Home() {
 
+    const facebook = "https//ijuiouuiysui";
     // size - é a nossa variável
     // setSize - função que ATUALIZA a nossa variável
     // useState - função do useState
@@ -123,6 +125,45 @@ export default function Home() {
                 </div>
 
             </header>
+
+            <main>
+                <section className='services'>
+                    <span>
+                        Além do nosso e-book de receitas gratuito, oferecemos um produto completo para quem busca uma 
+                        mudança duradoura em sua alimentação e saúde. Com nosso programa, você terá acesso a consultas 
+                        online com um nutricionista, acompanhamento em grupo pelo Telegram e muito mais. Transforme sua 
+                        vida agora mesmo e alcance seus objetivos de forma sustentável. Saiba mais em nossa página de produtos.
+                    </span>
+                </section>
+
+                <section className='social-media'>
+                    <div className='contact'>
+                        {/* TARGET BLANK - significa que quando clicar nesse icon será redirecionado e não fechará a página */}
+                        <a href={facebook} target='blank' className='face'>
+                            <ion-icon name="logo-facebook"></ion-icon>
+                            <span>Receitas sabor & Saúde</span>
+                        </a>
+                    </div>
+
+                    <div className='contact'>
+                        <a href={facebook} target='blank' className="insta">
+                            <ion-icon  name="logo-instagram"></ion-icon>
+                            <span>Receitas sabor & Saúde</span>
+                        </a>
+                    </div>
+
+                    <div className='contact'>
+                        <a href={facebook} target='blank' className="whatsapp">
+                            <ion-icon  name="logo-whatsapp"></ion-icon>
+                            <span>Receitas sabor & Saúde</span>
+                        </a>
+                    </div>
+                </section>
+            </main>
+
+            <footer>
+                <a href={'3'} target='blank' >SAIBA MAIS</a>
+            </footer>
         </>
     )
 }

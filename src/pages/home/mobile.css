@@ -39,3 +39,27 @@
     
 
 }
+
+/*-------------------------------------------------*/
+/*              SECTION SOCIAL MEDIA               */
+/*-------------------------------------------------*/
+
+@media(max-width: 670px){
+    main section.social-media div.contact a span{
+        display: none;
+    }
+
+    main section.social-media div.contact ion-icon{
+        font-size: 3rem;
+    }
+}
+
+/*-------------------------------------------------*/
+/*                      FOOTER                     */
+/*-------------------------------------------------*/
+
+@media(max-width: 415px){
+    footer a{
+        padding: 1rem 5rem;
+    }
+}
